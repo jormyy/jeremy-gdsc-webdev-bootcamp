@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+p {
+    color: green;
+}
+.github-button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #24292e, #32363c);
+    color: green;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.github-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(45deg, #32363c, #24292e);
+}
+.github-button .fab {
+    font-size: 24px;
+}
+.github-button {
+    display: flex;
+    align-items: center;
+}
